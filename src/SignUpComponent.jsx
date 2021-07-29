@@ -68,7 +68,7 @@ class SignUp extends Component{
                 <SignUpinp ref={t.passwordinpRef} name="Password" id="Password" type="password" HTMLFor="Password" lbl="Password" />                
                 <SignUpinp ref={t.repasswordinpRef} name="Repass" id="Repass" type="password" HTMLFor="Repass" lbl="Re type password" /> 
                 <span className="message" ref={t.mess}></span>
-                <button className="btn" type="submit" onClick={t.submitHandler}>SingUp</button>
+                <button className="btn" type="submit" onClick={t.submitHandler}>singup</button>
             </article>
         )
     }
